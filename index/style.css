@@ -1,0 +1,42 @@
+.container{
+    background-color: #F4EBDC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: aqua; */
+    margin: 5%;
+    line-height: 25px;
+}
+
+.right-content, img{
+    /* display: flex; */
+    margin: 5%;
+    border-radius: 75px;
+}
+
+button{
+    width: 75%;
+    height: 35px;
+    border-radius: 300px;
+    background-color: #F51E01;
+    color: #F4EBDC;
+    border: none;
+    margin: 5%
+}
+
+button:hover{
+    background-color: #d31e07;
+    color: #F4EBDC;
+    
+}
+
+/* a:hover{
+    color: #5F2011;
+} */

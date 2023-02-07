@@ -1,0 +1,122 @@
+header{
+    margin: 4cm;
+}
+
+
+
+body {
+    background-color: #F4EBDC ;
+    display: inline-block;
+    
+    
+}
+
+#email, #senha,#nome{
+    padding-left: 30px;
+    display: flex;
+    
+}
+
+/* esquece essa merda de cadastro, serviu d porra nenhuma!!! */
+
+/* .cadastro{
+display:inline-block;
+   
+} */
+    
+#nome, #email, #senha, #cadastrar{
+    margin-left: 12cm;
+    display: block;
+    box-shadow: none;
+    border-style: none;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F4EBDC;  
+}
+
+header{
+    margin: 20px;
+    margin-left: 540px;
+    margin-top: 205.73px;
+}
+
+
+
+#nome{
+
+position: center;
+width: 413px;
+height: 60px;
+margin-bottom: 0.5cm;
+
+background: #D2C7B5;
+border-radius: 100px;
+
+}
+
+
+#email{
+
+position:center;
+width: 413px;
+height: 60px;
+
+background: #D2C7B5;
+border-radius: 100px;
+margin-bottom: 0.5cm;
+
+}
+
+#senha{
+position: center;
+width: 413px;
+height: 60px;
+border-style: inset;
+background: #D2C7B5;
+border-radius: 100px;
+margin-bottom: 0.5cm;
+border-style: none; 
+/* botei "border style" aqui dentro pq la em cima tava fzd cu doce */
+}
+
+#cadastrar{
+    position: center;
+width: 443px;
+height: 60px;
+
+background: #F51E01;
+border-radius: 100px;
+animation-name:initial;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+/* se quiser tentar por pra roda fica pica */
+/* #cadastrar:hover {
+    animation-name:initial;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+} */
+
+@keyframes Cadastrar {
+
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+    
+}
+
+
+footer{
+padding: 199px;
+}
+
